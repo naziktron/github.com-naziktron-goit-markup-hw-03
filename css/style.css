@@ -39,6 +39,13 @@ img {
 button {
   cursor: pointer;
 }
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
 
 .container {
   width: 1200px;
@@ -138,7 +145,7 @@ button {
 .button-wrapper{
   display: flex;	
   justify-content: center;
-  padding-top: 30px;	
+  margin-top: 30px;	
 }
 .btn-prime {
   background:var(--accent-color);
